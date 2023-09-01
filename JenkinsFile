@@ -29,10 +29,10 @@ pipeline {
 			git add .
 			git commit -m "Update deployment file"
 			git checkout main
-			git add .
-			git commit -m "Update deployment file"
 			#git merge base
 			git merge -s ours base
+			git add .
+			git commit -m "Update deployment file"
 			git push -u origin main
 			'''
                 }

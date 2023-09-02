@@ -32,6 +32,7 @@ pipeline {
 			git checkout -b main
 			git checkout base
 			git rebase main
+			git commit -am "after rebase commit"
 			#git checkout base
 			#git merge base
 			#git merge -s ours main

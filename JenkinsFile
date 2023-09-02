@@ -28,6 +28,7 @@ pipeline {
 			git config --global user.email "islam.arif87@gmail.com"
 			git add .
 			git commit -m "Update deployment file"
+			git branch -l
 			git rebase base main
 			#git checkout base
 			#git merge base

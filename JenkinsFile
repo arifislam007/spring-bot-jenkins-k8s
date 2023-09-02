@@ -29,6 +29,7 @@ pipeline {
 			git add .
 			git commit -m "Update deployment file"
 			git branch -l
+			git checkout -b main
 			git rebase main
 			#git checkout base
 			#git merge base

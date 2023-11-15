@@ -29,7 +29,7 @@ pipeline {
         }
 		stage("Push to Git Repository") {
 			environment {
-				GITHUB_TOKEN = "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"
+				GITHUB_TOKEN = "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"
 				GIT_USER_NAME = "arifislam007"
 				GIT_REPO_NAME = "spring-bot-jenkins-k8s.git"
 			}

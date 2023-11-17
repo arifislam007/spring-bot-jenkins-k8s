@@ -36,7 +36,7 @@ pipeline {
 			#git checkout main
 			#git merge base
 			#git merge -s ours main
-			git push -u origin HEAD:staging
+			git push -u origin HEAD:testing
 			'''
                 }
             }
